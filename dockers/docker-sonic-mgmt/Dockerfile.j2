@@ -87,11 +87,18 @@ RUN pip install allure-pytest==2.8.22 \
                 rpyc \
                 six \
                 snappi[ixnetwork,convergence]==0.7.44 \
+                ixload \
                 statistics \
                 tabulate \
                 textfsm==1.1.3 \
                 thrift==0.11.0 \
                 virtualenv \
+                dpugen==0.0.5 \
+                macaddress \
+                munch \
+                ctypesgen \
+                pandas \
+                PyYAML \
     && git clone https://github.com/p4lang/scapy-vxlan.git \
     && cd scapy-vxlan \
     && python setup.py install \
